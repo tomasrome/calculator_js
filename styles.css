@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
 }
 
 main {
-    background-color: #e6eafe;
+    background-color: #1f2231;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,4 +65,14 @@ main {
 
 .btn_0 {
     grid-column: span 2;
+}
+
+.buttons_section button.dlt {
+    font-size: 40px;
+}
+
+@media (max-width: 500px) {
+    .calculator {
+        width: 90vw;
+    }
 }
